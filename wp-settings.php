@@ -18,6 +18,7 @@ define( 'WPINC', 'wp-includes' );
 /**
  * Version information for the current WordPress release.
  *
+ * *
  * These can't be directly globalized in version.php. When updating,
  * include version.php from another installation and don't override
  * these values if already set.
