@@ -24,6 +24,7 @@ if ( empty( $mailserver_url ) || 'mail.example.com' === $mailserver_url ) {
 /**
  * Fires to allow a plugin to do a complete takeover of Post by Email.
  *
+ * *
  * @since 2.9.0
  */
 do_action( 'wp-mail.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
